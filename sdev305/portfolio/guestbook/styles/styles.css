@@ -1,0 +1,44 @@
+#Other-block {
+    display: none;
+}
+
+.err {
+    color: #af2518;
+    display: none;
+}
+
+body {
+    background-color: #ccc8ea;
+}
+
+h1 {
+    color: #eae6ef;
+}
+
+#main {
+    background-color: white;
+    padding-bottom: 3em;
+}
+
+legend {
+    padding: .5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #5e50c5;
+}
+
+
+
+label {
+    color: black;
+}
+
+.btn-primary {
+    background-color: #738bde;
+    border-color: #5976da;
+}
+.jumbotron {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: 0 50%;
+}

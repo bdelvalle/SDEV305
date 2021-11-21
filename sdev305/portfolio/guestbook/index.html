@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Sign my Guestbook!</title>
+    <!--  Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+
+</head>
+<body>
+<div class="container" id="main">
+<!-- Page header -->
+<div class="jumbotron">
+     <h1 class="display-4">Barbara's Guestbook</h1>
+    <p class="lead">Let's Stay in Touch!</p>
+
+</div>
+<!-- Order form -->
+<form id="contact-form" action="confirm2.php" method="post">
+
+    <!--  Contact info  -->
+    <fieldset class="form-group border p-2">
+        <legend>Contact Information:</legend>
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control" id="fname" name="fname" aria-describedby="first name"
+                   placeholder="Enter first name">
+            <span class="err" id="err-fname">Please enter first name</span>
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control" id="lname" name="lname" aria-describedby="last name"
+                   placeholder="Enter last name">
+            <span class="err" id="err-lname">Please enter last name</span></div>
+
+        <div class="form-group">
+            <label for="jobtitle">Job Title</label>
+            <input type="text" class="form-control" id="jobtitle" name="jobtitle" aria-describedby="jobtitle"
+                   placeholder="Enter your job title">
+            <span class="err" id="err-title">Please input job title</span></div>
+
+        <div class="form-group">
+            <label for="linkedin">LinkedIn</label>
+            <input type="text" class="form-control" id="linkedin" name="linkedin" aria-describedby="linkedin"
+                   placeholder="Enter your LinkedIn URL">
+            <span class="err" id="err-linkedin">Please enter your LinkedIn URL</span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" name="email" aria-describedby="email"
+                   placeholder="Enter your Email">
+            <span class="err" id="err-email">Please enter your email</span>
+        </div>
+    </fieldset>
+
+
+
+
+    <!--How did we meet?-->
+    <fieldset class="form-group border p-2">
+        <legend>How did meet?</legend>
+        <div class="form-group">
+            <select class="form-control" id="met" name="met">
+                <option value="none" class="norm">Select how we met</option>
+                <option value="meetup" class="norm">Meetup</option>
+                <option value="job-fair" class="norm">Job Fair</option>
+                <option value="nope" class="norm">Haven't met yet.</option>
+                <option value="other" id="other">Other</option>
+            </select>
+            <span class="err" id="err-met">Please select how we know each other.</span>
+
+        <div id="Other-block" class="form-group">
+            <label for="othermet"></label>
+            <textarea class="form-control" id="othermet" name="othermet" aria-describedby="other"
+                      rows="5"></textarea>
+            <span class="err" id="err-other">Please enter how we met if you selected other:</span>
+        </div>
+        </div>
+    </fieldset>
+        <!--Mailing List-->
+        <fieldset class="form-group border p-2">
+            <legend>Mailing List:</legend>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label><input id="mailing" type="checkbox" name="mailing" value="mailing" checked> Please add me to the mailing list!</label>
+                </div>
+                </div>
+        </fieldset>
+    <fieldset class="form-group border p-2" id="emailFormat">
+                <section>
+                <legend><h3>Please choose an email format:</h3></legend>
+
+
+                <div class="radio">
+                    <label><input id="html" type="radio" name="method" value="html" checked> HTML</label>
+                </div>
+                <div class="radio">
+                    <label><input id="text" type="radio" name="method" value="text"> Text</label>
+                </div>
+                <span class="err" id="err-format">Please select email format</span>
+                </section></fieldset>
+
+
+
+
+
+
+
+
+        <button type="submit" class="btn btn-primary">Submit my information.</button>
+    </form>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

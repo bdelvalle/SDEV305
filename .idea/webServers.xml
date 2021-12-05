@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4434664a-9ca1-4903-954e-c8824ebadf0b" name="RottenCoders">
+        <fileTransfer accessType="SFTP" host="rotten-coders.greenriverdev.com" port="18765" sshConfigId="907f9a85-fa8a-4934-9ebf-4407ceec58e3" sshConfig="rottenco@rotten-coders.greenriverdev.com:18765 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fea1d196-bcf8-4275-8f71-9a8ee384823b" name="GreenRiverDev" url="http://barbara.greenriverdev.com">
+        <fileTransfer rootFolder="/home/bdelvall/public_html" accessType="SFTP" host="barbara.greenriverdev.com" port="18765" sshConfigId="4b5703bc-740f-4fca-8681-91c9feb4bda6" sshConfig="bdelvall@barbara.greenriverdev.com:18765 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

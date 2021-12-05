@@ -1,16 +1,30 @@
 <?php
 //Turn on error reporting
-ini_set('display_eorrs', 1);
+ini_set('display_errors', 1);
 error_reporting(E_ALL);
+$page='admin';
+
+//start session
+session_start();
+
+
+//if the user is not logged in
+if (empty($_SESSION['username'])) {
+    //store the current page in the session
+    $_SESSION['page'] = "index.php";
+
+    //redirect user to login page
+    header ('location: login.php');
+}
 
 //Include files
-include ('includes/header.php');
+include('includes/navheader.php');
 require ('/home/bdelvall/db.php');
+
 ?>
 
 
 <body>
-
 
 <div class="container">
 
@@ -87,4 +101,3 @@ require ('/home/bdelvall/db.php');
 </script>
 
 </body>
-</html>

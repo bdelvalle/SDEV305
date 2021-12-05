@@ -13,7 +13,7 @@ if (empty($_POST)) {
 date_default_timezone_set('America/Los_Angeles');
 $timestamp = date("Y/m/d H:i:s");
 
-include ('includes/header.php');
+include('includes/navheader.php');
 require ('/home/bdelvall/db.php');
 require('includes/guestbookValidation.php');
 ?>

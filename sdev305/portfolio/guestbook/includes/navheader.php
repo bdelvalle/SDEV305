@@ -30,14 +30,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <body class="bg-light-primary-color">
-                <a href="/sdev305/portfolio/guestbook/index.php" class="badge badge-dark align-content-center">Back Home</a>
 
 
-                <a href="/sdev305/portfolio/guestbook/admin.php" class="badge badge-dark float-left">Admin Page</a>
 
                 <a href="https://github.com/bdelvalle" class="badge badge-dark float-right">GitHub</a>
 
-                <a href="https://barbara.greenriverdev.com" class="badge badge-dark float-right">Resume</a>
+                <a href="https://barbara.greenriverdev.com/Resume/index.php" class="badge badge-dark float-right">Resume</a>
+
+                <a href="/sdev305/portfolio/guestbook/index.php" class="badge badge-dark align-content-center">Guestbook</a>
+
+
+                <a href="https://barbara.greenriverdev.com"  class="badge badge-dark float-right">Home</a>
+
+                <a href="/sdev305/portfolio/guestbook/admin.php" class="badge badge-dark float-left">Admin Page</a>
+
+                <a href="/sdev305/portfolio/guestbook/logout.php" class="badge badge-dark float-right">Logout</a>
+
+
+
+
                 </body>
             </ul>
         </div>

@@ -78,7 +78,7 @@
     </main>
 
     <footer class="mt-auto text-white-50">
-        <p> <h6>"On really romantic evenings of self, I go salsa dancing with my confusion." <br>-Speed Levitch</h6> <class="text-white"></p>
+        <p class="text-white"> <h6>"On really romantic evenings of self, I go salsa dancing with my confusion." <br>-Speed Levitch</h6>
     </footer>
 </div>
 

@@ -37,7 +37,7 @@ if (!empty($_POST)) {
         $_SESSION['username'] = $un;
 
         //go to the page that the user came from , or else the admin page
-        $page = isset($_SESSION['page']) ? $_SESSION['admin'] : "admin.php";
+        $page = isset($_SESSION['page']) ? $_SESSION['page'] : "admin.php";
         header('location: '.$page);
     }
 
